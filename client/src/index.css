@@ -1,0 +1,58 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: system-ui, Arial, sans-serif;
+  background: #f5f7fb;
+  color: #1f2937;
+}
+
+.app { max-width: 700px; margin: 2rem auto; padding: 0 1rem; }
+h1 { color: #4f46e5; margin-bottom: 0.3rem; }
+.subtitle { color: #6b7280; margin-bottom: 1.5rem; }
+
+.form {
+  background: #fff;
+  padding: 1.2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin-bottom: 1.5rem;
+}
+
+input, textarea {
+  padding: 0.6rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  background: #4f46e5;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+button:hover { opacity: 0.9; }
+
+.note {
+  background: #fff;
+  padding: 1rem 1.2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.note small { color: #9ca3af; }
+.delete { background: #ef4444; padding: 0.4rem 0.8rem; font-size: 0.9rem; }
+
+.error { color: #b91c1c; margin-bottom: 1rem; }
+.empty { color: #6b7280; text-align: center; }
